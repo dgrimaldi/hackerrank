@@ -1,1 +1,0 @@
-/home/dgrimaldi/Documents/hackerrank/hackerrank_rust/target/debug/libhackerrank_rust.rlib: /home/dgrimaldi/Documents/hackerrank/hackerrank_rust/src/lib.rs /home/dgrimaldi/Documents/hackerrank/hackerrank_rust/src/mini_max_sum.rs /home/dgrimaldi/Documents/hackerrank/hackerrank_rust/src/time_conversion.rs
