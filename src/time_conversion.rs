@@ -7,7 +7,7 @@ pub mod time_conversion_mod {
     }
 
     impl Meridian {
-        pub fn from(input: &str) -> Meridian{
+        pub fn new(input: &str) -> Meridian{
             if string_to_bytes(input).iter().any(|val| *val == (65)) {
                 return Meridian::AM
             }

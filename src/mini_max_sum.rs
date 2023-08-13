@@ -1,10 +1,10 @@
-pub mod mini_max_sum {
+pub mod mini_max_sum_mod {
     pub struct Value {
         input : [i128; 5],
         output : [i128; 5]
     }
     impl Value {
-        pub fn from(input: [i128;5]) -> Value {
+        pub fn new(input: [i128;5]) -> Value {
             Value {
                 input,
                 output: [0,0,0,0,0]
