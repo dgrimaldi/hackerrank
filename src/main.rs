@@ -28,77 +28,8 @@ fn main() {
 
 
     fn activity_notifications_fn() -> i32 {
-        let notification = Notification::new(&Notification {expenditure: &[1,2,3,4,4], d: 4, n: 5});
+        let notification = Notification::new(&Notification {expenditure: &[2,3,4,2,3,6,8,4,5], d: 5, n: 9});
         notification.activity_notifications()
     }
-    //     let mut number_of_notification = 0;
-    //     let is_even = (d % 2) == 0;
-    //     let median_index = if is_even {
-    //          (d/2, (d / 2) + 1)
-    //     } else {
-    //         (((d + 1) / 2), 0)
-    //     };
-    //
-    //
-    //     for i in 0..(n - d) {
-    //         let end_index = d + i;
-    //         let start_index = i;
-    //
-    //         let sliced_notification=  slice_notifiaction::<5,9>(notification, start_index, end_index);
-    //         // let numbers= ;
-    //         let sliced_notification_sorted = sort_arr(sliced_notification);
-    //         // println!("{:?}", numbers)
-    //
-    //         println!("sliced_notification {:?}", sliced_notification);
-    //         println!("notification {:?}", sliced_notification_sorted);
-    //         // println!("{:?}", end_index);
-    //
-    //         let median: i32;
-    //          if is_even {
-    //              median = ((sliced_notification_sorted[median_index.0] - sliced_notification_sorted[median_index.1]) / 2) as i32
-    //          } else {
-    //              median = sliced_notification_sorted[median_index.0] as i32
-    //          }
-    //
-    //         if median*2 > notification[end_index] as i32 {
-    //             number_of_notification += 1;
-    //         }
-    //     }
-    //     number_of_notification
-    // }
-    //
-    // fn slice_notifiaction<const A: usize, const T: usize>(arr: &[usize; T], start: usize, end: usize) -> [usize;A] {
-    //     <[usize; A]>::try_from(&arr[start..end]).unwrap()
-    // }
-    //
-    //     // let input = activity_notifications_a(&[2, 3, 4, 2, 3, 6, 8, 4, 5], 5, 9);
-    //
-    // fn sort_arr<const T: usize>(arr: [usize; T]) -> [usize; T] {
-    //     let mut new_array: [usize; T] = arr;
-    //     let mut i:usize=0;
-    //     let mut j:usize=0;
-    //
-    //     let mut min:usize=0;
-    //     let mut temp:usize=0;
-    //
-    //     while i <= 4 {
-    //         min = i;
-    //         j   = i + 1;
-    //
-    //         while j <= 4
-    //         {
-    //             if arr[j] < arr[min] {
-    //                 min = j;
-    //             }
-    //             j=j+1;
-    //         }
-    //         temp = arr[i];
-    //         new_array[i] = arr[min];
-    //         new_array[min] = temp;
-    //
-    //         i=i+1;
-    //     }
-    //     new_array
-    // }
 
 }
